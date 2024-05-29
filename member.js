@@ -1,0 +1,57 @@
+function skillsMember() {
+  const skills = document.querySelector('.skills');
+  if (skills) {
+    const member = document.querySelector('.member');
+    member.style.width = '100%';
+    member.style.maxWidth = '100%';
+    member.style.padding = '0';
+    member.style.margin = '0';
+    member.style.display = 'flex';
+    member.style.flexWrap = 'wrap';
+    member.style.justifyContent = 'space-between';
+    member.style.alignItems = 'center';
+    member.style.alignContent = 'center';
+    member.style.padding = '0';
+    member.style.margin = '0';
+    member.style.border = '0';
+    member.style.borderRadius = '0';
+    member.style.backgroundColor = 'transparent';
+    member.style.boxShadow = 'none';
+    member.style.transition = 'none';
+    member.style.opacity = '1';
+    member.style.visibility = 'visible';
+    member.style.overflow = 'visible';
+
+    const memberInfo = document.querySelector('.member-info');
+    memberInfo.style.width = '100%';
+    memberInfo.style.maxWidth = '100%';
+    memberInfo.style.padding = '0';
+    memberInfo.style.margin = '0';
+    memberInfo.style.display = 'flex';
+    memberInfo.style.flexWrap = 'wrap';
+    memberInfo.style.justifyContent = 'space-between';
+    memberInfo.style.alignItems = 'center';
+    memberInfo.style.alignContent = 'center';
+    memberInfo.style.padding = '0';
+    memberInfo.style.margin = '0';
+    memberInfo.style.border = '0';
+    memberInfo.style.borderRadius = '0';
+    memberInfo.style.backgroundColor = 'transparent';
+    memberInfo.style.boxShadow = 'none';
+    memberInfo.style.transition = 'none';
+    memberInfo.style.opacity = '1';
+    memberInfo.style.visibility = 'visible';
+    memberInfo.style.overflow = 'visible';
+
+    const memberAvatar = document.querySelector('.member-avatar');
+    memberAvatar.style.width = '50%';
+    memberAvatar.style.maxWidth = '50%';
+    memberAvatar.style.padding = '0';
+    memberAvatar.style.margin = '0';
+    memberAvatar.style.display = 'flex';
+    memberAvatar.style.flexWrap = 'wrap';
+    memberAvatar.style.justifyContent = 'space-between';
+    memberAvatar.style.alignItems = 'center';
+    memberAvatar.style.alignContent = 'center';
+    memberAvatar.style.padding = '0';
+    memberAvatar.style.margin = '0
